@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Cookie";
+    background-color: #ffffff;
+}
+li{
+    list-style: none;
+}
+.html, .js, .css{
+    width: 12rem;
+}
+.html{
+    position: absolute;
+    top: 180px;
+    left: 25px;
+}
+.js{
+    position: absolute;
+    top: 180px;
+    right: 25px;
+}
+.top-container h1{
+    width: 30%;
+    margin: 0 auto 0 auto;
+    position: relative;
+    top: -150px;
+    color: #66bfbf;
+    text-shadow: 2px 4px 2px red;
+    font-size: 4.5rem;
+}
+.top-container p{
+    position: relative;
+    color: #66bfbf;
+    text-shadow: 1px 1px 1px red;
+    top: -150px;
+    font-size: 2.2rem;
+}
+.navbar{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 97%;
+    color: white;
+    margin: 0px ;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navbar li{
+    padding: 0.2rem 1.2rem;
+    list-style-type: none;   
+    font-size: 1.2rem;
+    font-family: Berlin Sans FB;
+    text-transform: uppercase;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover{
+   
+    color: #00BCD4;
+    font-size: 1.3rem;
+}
+.navbar li img{
+    width: 2rem;
+    position: relative;
+    left: 0px;
+}
+#mount{
+    position: relative;
+    top: -180px;
+}
+.top-container{
+    background-color: #fdfdfd;
+    height: 42rem;
+}
+.mntcldimg{
+    width: -webkit-fill-available;
+}
+.intro{
+    color: #66bfbf;
+}
+.intro h1{
+    font-size: 4.5rem;
+    text-shadow: 2px 4px 2px red;
+    margin: 0px auto;
+}
+.intro p{
+    font-size: 2.3rem;
+    width: 68%;
+    display: inline-block;
+}
+.intro img{
+    display: inline-block;
+    width: 30%;
+    width: 15rem;
+    border-radius: 100%;
+}
+.intro-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills-container{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+/* .skills::before{
+    content: "";
+    background: url(bg.png) no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+} */
+.skills{
+    color: #66bfbf;
+    position: absolute;
+    z-index: 1;
+}
+.skills h2{
+    font-size: 2.2rem;
+    background-color: black;
+    color: white;
+    margin: 3rem auto;
+    width: 40%;
+    border-radius: 25px;
+}
+.skills h1{
+    font-size: 4.5rem;
+    text-shadow: 2px 4px 2px red;
+    margin: 0px auto;
+}
+.skills p{
+    font-size: 2.3rem;
+    width: 68%;
+    display: inline-block;
+    margin: 0;
+}
+.skills img{
+    display: inline-block;
+    width: 30%;
+    width: 15rem;
+    background-color: black;
+    border-radius: 100%;
+}
+.skills-container2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   
+}
+hr{
+    border: 6px dotted #76fafa;
+    border-bottom: none;
+    width: 9%;
+    margin: 35px auto;
+}
